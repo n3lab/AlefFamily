@@ -9,23 +9,53 @@
 /* Begin PBXBuildFile section */
 		FE3507522512168E00B6E1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3507512512168E00B6E1E5 /* AppDelegate.swift */; };
 		FE3507542512168E00B6E1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3507532512168E00B6E1E5 /* SceneDelegate.swift */; };
-		FE3507562512168E00B6E1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3507552512168E00B6E1E5 /* ViewController.swift */; };
+		FE3507562512168E00B6E1E5 /* FamilyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3507552512168E00B6E1E5 /* FamilyController.swift */; };
 		FE3507592512168E00B6E1E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3507572512168E00B6E1E5 /* Main.storyboard */; };
 		FE35075C2512168E00B6E1E5 /* AlefFamily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE35075A2512168E00B6E1E5 /* AlefFamily.xcdatamodeld */; };
 		FE35075E2512169000B6E1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE35075D2512169000B6E1E5 /* Assets.xcassets */; };
 		FE3507612512169000B6E1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE35075F2512169000B6E1E5 /* LaunchScreen.storyboard */; };
+		FE35077025121A9100B6E1E5 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE35076E25121A9100B6E1E5 /* NameCell.swift */; };
+		FE35077125121A9100B6E1E5 /* NameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE35076F25121A9100B6E1E5 /* NameCell.xib */; };
+		FE3FE47D2512E55C0008900F /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FE47C2512E55C0008900F /* UIViewController+Keyboard.swift */; };
+		FE8A2A6F25123B4C00665BDE /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A6D25123B4C00665BDE /* SectionHeader.swift */; };
+		FE8A2A7025123B4C00665BDE /* SectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8A2A6E25123B4C00665BDE /* SectionHeader.xib */; };
+		FE8A2A732512406300665BDE /* AddChildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A712512406300665BDE /* AddChildCell.swift */; };
+		FE8A2A742512406300665BDE /* AddChildCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8A2A722512406300665BDE /* AddChildCell.xib */; };
+		FE8A2A78251242B100665BDE /* ChildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A76251242B100665BDE /* ChildCell.swift */; };
+		FE8A2A79251242B100665BDE /* ChildCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8A2A77251242B100665BDE /* ChildCell.xib */; };
+		FE8A2A7B2512650400665BDE /* FamilyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A7A2512650400665BDE /* FamilyViewModel.swift */; };
+		FE8A2A7D25126FF900665BDE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A7C25126FF900665BDE /* CoreDataManager.swift */; };
+		FE8A2A82251276DF00665BDE /* Child+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A7E251276DF00665BDE /* Child+CoreDataClass.swift */; };
+		FE8A2A83251276DF00665BDE /* Child+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A7F251276DF00665BDE /* Child+CoreDataProperties.swift */; };
+		FE8A2A84251276DF00665BDE /* Parent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A80251276DF00665BDE /* Parent+CoreDataClass.swift */; };
+		FE8A2A85251276DF00665BDE /* Parent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A81251276DF00665BDE /* Parent+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE35074E2512168E00B6E1E5 /* AlefFamily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlefFamily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3507512512168E00B6E1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE3507532512168E00B6E1E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE3507552512168E00B6E1E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE3507552512168E00B6E1E5 /* FamilyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyController.swift; sourceTree = "<group>"; };
 		FE3507582512168E00B6E1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE35075B2512168E00B6E1E5 /* AlefFamily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlefFamily.xcdatamodel; sourceTree = "<group>"; };
 		FE35075D2512169000B6E1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE3507602512169000B6E1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE3507622512169000B6E1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE35076E25121A9100B6E1E5 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		FE35076F25121A9100B6E1E5 /* NameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameCell.xib; sourceTree = "<group>"; };
+		FE3FE47C2512E55C0008900F /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		FE8A2A6D25123B4C00665BDE /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		FE8A2A6E25123B4C00665BDE /* SectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeader.xib; sourceTree = "<group>"; };
+		FE8A2A712512406300665BDE /* AddChildCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildCell.swift; sourceTree = "<group>"; };
+		FE8A2A722512406300665BDE /* AddChildCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChildCell.xib; sourceTree = "<group>"; };
+		FE8A2A76251242B100665BDE /* ChildCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCell.swift; sourceTree = "<group>"; };
+		FE8A2A77251242B100665BDE /* ChildCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildCell.xib; sourceTree = "<group>"; };
+		FE8A2A7A2512650400665BDE /* FamilyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewModel.swift; sourceTree = "<group>"; };
+		FE8A2A7C25126FF900665BDE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FE8A2A7E251276DF00665BDE /* Child+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Child+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE8A2A7F251276DF00665BDE /* Child+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Child+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FE8A2A80251276DF00665BDE /* Parent+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parent+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE8A2A81251276DF00665BDE /* Parent+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parent+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +88,103 @@
 		FE3507502512168E00B6E1E5 /* AlefFamily */ = {
 			isa = PBXGroup;
 			children = (
+				FE3FE47B2512E5300008900F /* Extension */,
+				FE35076C251216DC00B6E1E5 /* CoreData */,
+				FE35076B251216CF00B6E1E5 /* Service */,
+				FE3507682512169C00B6E1E5 /* Model */,
+				FE350769251216AB00B6E1E5 /* ViewModel */,
+				FE35076A251216BE00B6E1E5 /* View */,
 				FE3507512512168E00B6E1E5 /* AppDelegate.swift */,
 				FE3507532512168E00B6E1E5 /* SceneDelegate.swift */,
-				FE3507552512168E00B6E1E5 /* ViewController.swift */,
 				FE3507572512168E00B6E1E5 /* Main.storyboard */,
 				FE35075D2512169000B6E1E5 /* Assets.xcassets */,
 				FE35075F2512169000B6E1E5 /* LaunchScreen.storyboard */,
 				FE3507622512169000B6E1E5 /* Info.plist */,
-				FE35075A2512168E00B6E1E5 /* AlefFamily.xcdatamodeld */,
 			);
 			path = AlefFamily;
+			sourceTree = "<group>";
+		};
+		FE3507682512169C00B6E1E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A2A7E251276DF00665BDE /* Child+CoreDataClass.swift */,
+				FE8A2A7F251276DF00665BDE /* Child+CoreDataProperties.swift */,
+				FE8A2A80251276DF00665BDE /* Parent+CoreDataClass.swift */,
+				FE8A2A81251276DF00665BDE /* Parent+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE350769251216AB00B6E1E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A2A7A2512650400665BDE /* FamilyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE35076A251216BE00B6E1E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE35076D25121A5900B6E1E5 /* Family */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE35076B251216CF00B6E1E5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A2A7C25126FF900665BDE /* CoreDataManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FE35076C251216DC00B6E1E5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FE35075A2512168E00B6E1E5 /* AlefFamily.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FE35076D25121A5900B6E1E5 /* Family */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A2A75251241AD00665BDE /* Header */,
+				FE35077625121AD100B6E1E5 /* Cell */,
+				FE3507552512168E00B6E1E5 /* FamilyController.swift */,
+			);
+			path = Family;
+			sourceTree = "<group>";
+		};
+		FE35077625121AD100B6E1E5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FE35076E25121A9100B6E1E5 /* NameCell.swift */,
+				FE35076F25121A9100B6E1E5 /* NameCell.xib */,
+				FE8A2A712512406300665BDE /* AddChildCell.swift */,
+				FE8A2A722512406300665BDE /* AddChildCell.xib */,
+				FE8A2A76251242B100665BDE /* ChildCell.swift */,
+				FE8A2A77251242B100665BDE /* ChildCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FE3FE47B2512E5300008900F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE3FE47C2512E55C0008900F /* UIViewController+Keyboard.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FE8A2A75251241AD00665BDE /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A2A6D25123B4C00665BDE /* SectionHeader.swift */,
+				FE8A2A6E25123B4C00665BDE /* SectionHeader.xib */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +214,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = n3deep;
 				TargetAttributes = {
 					FE35074D2512168E00B6E1E5 = {
@@ -129,8 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE3507612512169000B6E1E5 /* LaunchScreen.storyboard in Resources */,
+				FE8A2A7025123B4C00665BDE /* SectionHeader.xib in Resources */,
+				FE8A2A79251242B100665BDE /* ChildCell.xib in Resources */,
 				FE35075E2512169000B6E1E5 /* Assets.xcassets in Resources */,
+				FE35077125121A9100B6E1E5 /* NameCell.xib in Resources */,
 				FE3507592512168E00B6E1E5 /* Main.storyboard in Resources */,
+				FE8A2A742512406300665BDE /* AddChildCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +262,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3507562512168E00B6E1E5 /* ViewController.swift in Sources */,
+				FE8A2A83251276DF00665BDE /* Child+CoreDataProperties.swift in Sources */,
+				FE8A2A84251276DF00665BDE /* Parent+CoreDataClass.swift in Sources */,
+				FE3507562512168E00B6E1E5 /* FamilyController.swift in Sources */,
 				FE35075C2512168E00B6E1E5 /* AlefFamily.xcdatamodeld in Sources */,
+				FE8A2A82251276DF00665BDE /* Child+CoreDataClass.swift in Sources */,
+				FE8A2A732512406300665BDE /* AddChildCell.swift in Sources */,
 				FE3507522512168E00B6E1E5 /* AppDelegate.swift in Sources */,
+				FE8A2A85251276DF00665BDE /* Parent+CoreDataProperties.swift in Sources */,
+				FE8A2A6F25123B4C00665BDE /* SectionHeader.swift in Sources */,
+				FE35077025121A9100B6E1E5 /* NameCell.swift in Sources */,
+				FE3FE47D2512E55C0008900F /* UIViewController+Keyboard.swift in Sources */,
+				FE8A2A78251242B100665BDE /* ChildCell.swift in Sources */,
+				FE8A2A7B2512650400665BDE /* FamilyViewModel.swift in Sources */,
+				FE8A2A7D25126FF900665BDE /* CoreDataManager.swift in Sources */,
 				FE3507542512168E00B6E1E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +328,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +389,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
